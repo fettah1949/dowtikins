@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXT_PUBLIC_ADSENSE_CLIENT_ID": "ca-pub-1841159989456495",
+    "NEXT_PUBLIC_DISABLE_ADS": "false"
+  }
+}
