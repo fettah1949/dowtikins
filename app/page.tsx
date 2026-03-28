@@ -1,6 +1,8 @@
 "use client"
 
 import { useState } from "react"
+import BannerAd from "./components/ads/BannerAd"
+import StickyAd from "./components/ads/StickyAd"
 
 interface DownloadResult {
   success: boolean
@@ -264,6 +266,10 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      <div className="container mx-auto px-4 py-4">
+        <BannerAd position="footer" />
+      </div>
 
       <footer className="bg-gray-800 border-t border-gray-700 py-6">
         <div className="container mx-auto px-4 text-center text-gray-400 text-sm">
