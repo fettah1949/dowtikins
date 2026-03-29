@@ -2,7 +2,7 @@ import AdSenseUnit from './AdSenseUnit'
 import { AD_UNITS } from '@/lib/ads'
 
 interface BannerAdProps {
-  position: 'header' | 'footer' | 'sidebar' | 'in-article'
+  position: 'header' | 'footer' | 'sidebar' | 'in-article' | 'autorelaxed'
   className?: string
 }
 
@@ -12,6 +12,7 @@ export default function BannerAd({ position, className = '' }: BannerAdProps) {
     footer: AD_UNITS.FOOTER,
     sidebar: AD_UNITS.SIDEBAR,
     'in-article': AD_UNITS.IN_ARTICLE,
+    autorelaxed: AD_UNITS.AUTORELAXED,
   }
 
   const adUnit = adConfig[position]
