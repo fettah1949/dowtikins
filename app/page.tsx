@@ -96,6 +96,12 @@ export default function Home() {
               >
                 🔥 Calorie Calculator
               </a>
+              <a
+                href="/brand-name-generator"
+                className="inline-block bg-gradient-to-r from-orange-500 to-red-500 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all"
+              >
+                ✨ Brand Name Generator
+              </a>
             </div>
           </div>
 
