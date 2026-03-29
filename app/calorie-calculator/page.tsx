@@ -239,7 +239,7 @@ export default function CalorieCalculatorPage() {
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 mb-12">
             <h2 className="text-2xl font-bold text-white mb-4">About Our Calorie Calculator</h2>
             <p className="text-gray-400 mb-4">
-              Welcome to DowTikins' free calorie calculator - your go-to online tool for calculating daily caloric needs based on your personal goals. Whether you want to lose weight, maintain your current weight, or gain muscle, our calculator uses the scientifically-validated Mifflin-St Jeor Equation to provide accurate results.
+              Welcome to DowTikins&apos; free calorie calculator - your go-to online tool for calculating daily caloric needs based on your personal goals. Whether you want to lose weight, maintain your current weight, or gain muscle, our calculator uses the scientifically-validated Mifflin-St Jeor Equation to provide accurate results.
             </p>
             <p className="text-gray-400 mb-4">
               This calorie calculator takes into account your age, weight, height, gender, and activity level to determine your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE). Unlike other calorie calculators, our tool provides three target values: calories for weight loss (500 calorie deficit), weight maintenance, and weight gain (500 calorie surplus).

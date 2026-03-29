@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Search, CheckCircle2, XCircle, Loader2, Sparkles, Globe, AtSign, Facebook, Instagram, Youtube, Radio } from "lucide-react"
+import { Search, CheckCircle2, XCircle, Loader2, Sparkles, Globe, AtSign, Heart, Share2, Star } from "lucide-react"
 import BannerAd from "../components/ads/BannerAd"
 import StickyAd from "../components/ads/StickyAd"
 
@@ -202,7 +202,7 @@ export default function BrandNameGeneratorPage() {
 
                     <div className="flex items-center justify-between py-1">
                       <div className="flex items-center text-xs text-gray-400">
-                        <Facebook className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
+                        <Heart className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
                         <span>Facebook</span>
                       </div>
                       {result.facebookAvailable ? (
@@ -220,7 +220,7 @@ export default function BrandNameGeneratorPage() {
 
                     <div className="flex items-center justify-between py-1">
                       <div className="flex items-center text-xs text-gray-400">
-                        <Instagram className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
+                        <Share2 className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
                         <span>Instagram</span>
                       </div>
                       {result.instagramAvailable ? (
@@ -238,7 +238,7 @@ export default function BrandNameGeneratorPage() {
 
                     <div className="flex items-center justify-between py-1">
                       <div className="flex items-center text-xs text-gray-400">
-                        <Radio className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
+                        <AtSign className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
                         <span>TikTok</span>
                       </div>
                       {result.tiktokAvailable ? (
@@ -256,7 +256,7 @@ export default function BrandNameGeneratorPage() {
 
                     <div className="flex items-center justify-between py-1">
                       <div className="flex items-center text-xs text-gray-400">
-                        <Youtube className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
+                        <Globe className="w-3.5 h-3.5 mr-1.5" aria-hidden="true" />
                         <span>YouTube</span>
                       </div>
                       {result.youtubeAvailable ? (

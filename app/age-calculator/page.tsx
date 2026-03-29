@@ -219,7 +219,7 @@ export default function AgeCalculatorPage() {
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 mb-12">
               <h2 className="text-2xl font-bold text-white mb-4">About Our Age Calculator Tool</h2>
               <p className="text-gray-400 mb-4">
-                Welcome to DowTikins' free age calculator - your go-to online tool for calculating age with precision. Whether you're planning a birthday celebration, calculating an anniversary, or simply curious about your exact age, our birthday calculator provides instant, accurate results.
+                Welcome to DowTikins&apos; free age calculator - your go-to online tool for calculating age with precision. Whether you&apos;re planning a birthday celebration, calculating an anniversary, or simply curious about your exact age, our birthday calculator provides instant, accurate results.
               </p>
               <p className="text-gray-400 mb-4">
                 This age calculation tool uses advanced algorithms to determine your exact age in years, months, and days, while also providing additional statistics like total days, weeks, and hours lived. Unlike other age finders, our tool accounts for leap years and varying month lengths to ensure 100% accuracy.
@@ -243,7 +243,7 @@ export default function AgeCalculatorPage() {
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
                 <h3 className="text-lg font-semibold text-white mb-2">What information do I need to calculate my age?</h3>
                 <p className="text-gray-400 text-sm">
-                  You only need your birth date (day, month, and year). Simply enter your date of birth and click "Calculate Age" to get your exact age in years, months, and days.
+                  You only need your birth date (day, month, and year). Simply enter your date of birth and click &quot;Calculate Age&quot; to get your exact age in years, months, and days.
                 </p>
               </div>
 
@@ -264,7 +264,7 @@ export default function AgeCalculatorPage() {
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50">
                 <h3 className="text-lg font-semibold text-white mb-2">How does the age calculator work?</h3>
                 <p className="text-gray-400 text-sm">
-                  Our age calculator calculates the exact difference between your birth date and today's date. It accounts for leap years and varying month lengths to provide accurate results in years, months, and days, plus total days, weeks, and hours.
+                  Our age calculator calculates the exact difference between your birth date and today&apos;s date. It accounts for leap years and varying month lengths to provide accurate results in years, months, and days, plus total days, weeks, and hours.
                 </p>
               </div>
             </div>
