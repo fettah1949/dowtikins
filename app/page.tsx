@@ -83,6 +83,20 @@ export default function Home() {
             <p className="text-gray-400 text-lg md:text-xl">
               DowTikins is your ultimate solution for downloading TikTok videos and Instagram Reels in just one click.
             </p>
+            <div className="mt-6 flex flex-wrap gap-4 justify-center">
+              <a
+                href="/age-calculator"
+                className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all"
+              >
+                📅 Age Calculator
+              </a>
+              <a
+                href="/calorie-calculator"
+                className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold py-3 px-8 rounded-lg hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-800 transition-all"
+              >
+                🔥 Calorie Calculator
+              </a>
+            </div>
           </div>
 
           <div className="bg-gray-800 rounded-2xl p-6 md:p-8 shadow-2xl border border-gray-700">
