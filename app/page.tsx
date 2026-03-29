@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import BannerAd from "./components/ads/BannerAd"
 import StickyAd from "./components/ads/StickyAd"
 
@@ -152,9 +153,11 @@ export default function Home() {
                 <div className="text-center">
                   <p className="text-green-400 font-medium mb-4">Video ready for download!</p>
                   {result.thumbnail && (
-                    <img
+                    <Image
                       src={result.thumbnail}
                       alt="Video thumbnail"
+                      width={640}
+                      height={360}
                       className="max-w-full mx-auto rounded-lg mb-4 max-h-64 object-cover"
                     />
                   )}
@@ -192,7 +195,7 @@ export default function Home() {
               <div className="bg-gray-800/50 p-6 rounded-xl border border-gray-700">
                 <div className="text-3xl mb-3">🔒</div>
                 <h3 className="text-lg font-semibold mb-2 text-blue-400">100% Secure</h3>
-                <p className="text-gray-400 text-sm">Your data stays safe. We don't store any personal information or download history.</p>
+                <p className="text-gray-400 text-sm">Your data stays safe. We don&apos;t store any personal information or download history.</p>
               </div>
             </div>
 
@@ -260,7 +263,7 @@ export default function Home() {
 
               <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
                 <summary className="font-semibold text-lg text-white">Is it safe to use DowTikins?</summary>
-                <p className="mt-3 text-gray-400">Absolutely! DowTikins is 100% secure. We don't store your data, don't require registration, and all downloads happen directly from official platforms. Your privacy is our priority.</p>
+                <p className="mt-3 text-gray-400">Absolutely! DowTikins is 100% secure. We don&apos;t store your data, don&apos;t require registration, and all downloads happen directly from official platforms. Your privacy is our priority.</p>
               </details>
 
               <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
@@ -275,7 +278,7 @@ export default function Home() {
 
               <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
                 <summary className="font-semibold text-lg text-white">Do I need to install any software?</summary>
-                <p className="mt-3 text-gray-400">No installation required! DowTikins is a web-based tool that works directly in your browser. Just visit our website, paste the video URL, and download - it's that simple!</p>
+                <p className="mt-3 text-gray-400">No installation required! DowTikins is a web-based tool that works directly in your browser. Just visit our website, paste the video URL, and download - it&apos;s that simple!</p>
               </details>
 
               <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">

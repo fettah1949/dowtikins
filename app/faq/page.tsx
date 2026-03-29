@@ -118,7 +118,7 @@ export default function FAQPage() {
 
           <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
             <summary className="font-semibold text-lg text-white">Is it safe to use DowTikins?</summary>
-            <p className="mt-3 text-gray-400">Absolutely! DowTikins is 100% secure. We don't store your data, don't require registration, and all downloads happen directly from official platforms. Your privacy is our priority.</p>
+            <p className="mt-3 text-gray-400">Absolutely! DowTikins is 100% secure. We don&apos;t store your data, don&apos;t require registration, and all downloads happen directly from official platforms. Your privacy is our priority.</p>
           </details>
 
           <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
@@ -133,7 +133,7 @@ export default function FAQPage() {
 
           <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
             <summary className="font-semibold text-lg text-white">Do I need to install any software?</summary>
-            <p className="mt-3 text-gray-400">No installation required! DowTikins is a web-based tool that works directly in your browser. Just visit our website, paste the video URL, and download - it's that simple!</p>
+            <p className="mt-3 text-gray-400">No installation required! DowTikins is a web-based tool that works directly in your browser. Just visit our website, paste the video URL, and download - it&apos;s that simple!</p>
           </details>
 
           <details className="bg-gray-800 rounded-lg p-6 cursor-pointer hover:bg-gray-750 transition-colors">
